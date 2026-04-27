@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6503962882933292852
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8098169881513260187, guid: 75bbfccc509428f43ba5c41435c16a78,
+        type: 3}
+      propertyPath: m_Name
+      value: OilSlick
+      objectReference: {fileID: 0}
+    - target: {fileID: -8098169881513260187, guid: 75bbfccc509428f43ba5c41435c16a78,
+        type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447742079981357586, guid: 75bbfccc509428f43ba5c41435c16a78,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447742079981357586, guid: 75bbfccc509428f43ba5c41435c16a78,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447742079981357586, guid: 75bbfccc509428f43ba5c41435c16a78,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447742079981357586, guid: 75bbfccc509428f43ba5c41435c16a78,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447742079981357586, guid: 75bbfccc509428f43ba5c41435c16a78,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447742079981357586, guid: 75bbfccc509428f43ba5c41435c16a78,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447742079981357586, guid: 75bbfccc509428f43ba5c41435c16a78,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447742079981357586, guid: 75bbfccc509428f43ba5c41435c16a78,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447742079981357586, guid: 75bbfccc509428f43ba5c41435c16a78,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447742079981357586, guid: 75bbfccc509428f43ba5c41435c16a78,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447742079981357586, guid: 75bbfccc509428f43ba5c41435c16a78,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447742079981357586, guid: 75bbfccc509428f43ba5c41435c16a78,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3447742079981357586, guid: 75bbfccc509428f43ba5c41435c16a78,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -8098169881513260187, guid: 75bbfccc509428f43ba5c41435c16a78,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4840123396661241391}
+    - targetCorrespondingSourceObject: {fileID: -8098169881513260187, guid: 75bbfccc509428f43ba5c41435c16a78,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4925957671655853738}
+    - targetCorrespondingSourceObject: {fileID: -8098169881513260187, guid: 75bbfccc509428f43ba5c41435c16a78,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5947217371161525072}
+  m_SourcePrefab: {fileID: 3150474306388093854, guid: 75bbfccc509428f43ba5c41435c16a78,
+    type: 3}
+--- !u!1 &6187720137080239185 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8098169881513260187, guid: 75bbfccc509428f43ba5c41435c16a78,
+    type: 3}
+  m_PrefabInstance: {fileID: 6503962882933292852}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4840123396661241391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187720137080239185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf2e58e50a8d09742a1271bd09447bdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyMoveToTarget
+  moveSpeed: 0.05
+  damageDistance: 0.15
+  damageOnHit: 10
+--- !u!114 &4925957671655853738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187720137080239185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f5e6394b51ca06458ad8a5277156cac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OilSlickTapHandler
+--- !u!65 &5947217371161525072
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6187720137080239185}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2, y: 0.50800425, z: 1.9892719}
+  m_Center: {x: 0, y: 0, z: 0}
